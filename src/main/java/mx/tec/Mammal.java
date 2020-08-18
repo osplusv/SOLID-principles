@@ -1,5 +1,13 @@
 package mx.tec;
 
-public abstract class Mammal {
-    public abstract String makeNoise();
+public class Mammal {
+    MakingNoise speaker;
+
+    public Mammal(MakingNoise speaker) {
+        this.speaker = speaker;
+    }
+
+    public String makeNoise() {
+        return this.speaker.makeNoise();
+    }
 }

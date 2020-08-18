@@ -1,6 +1,6 @@
 package mx.tec;
 
-public class DogNoise extends MakingNoise {
+public class DogNoise implements MakingNoise {
     public String makeNoise() {
         return "Bark";
     }

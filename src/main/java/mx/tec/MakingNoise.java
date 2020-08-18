@@ -1,5 +1,5 @@
 package mx.tec;
 
-public abstract class MakingNoise {
-    public abstract String makeNoise();
+public interface MakingNoise {
+    String makeNoise();
 }
