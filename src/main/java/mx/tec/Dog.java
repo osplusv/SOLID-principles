@@ -1,6 +1,6 @@
 package mx.tec;
 
-public class Dog implements IMammal {
+public class Dog implements IEat, IMakeNoise {
     public void eat() {
         System.out.println("Dog is eating");
     }
