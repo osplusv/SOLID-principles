@@ -10,13 +10,11 @@ public class CalculateAreas {
 
     public double sumAreas() {
         sumTotal = 0;
+
         for (Shape shape : shapes) {
             sumTotal = sumTotal + shape.calcArea();
         }
-        return sumTotal;
-    }
 
-    public void output() {
-        System.out.println("Total of all areas = " + sumTotal);
+        return sumTotal;
     }
 }

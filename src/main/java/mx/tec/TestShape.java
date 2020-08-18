@@ -9,9 +9,10 @@ public class TestShape {
         Shape[] shapeArray = new Shape[1];
         shapeArray[0] = circle;
 
-        CalculateAreas ca = new CalculateAreas(shapeArray);
+        CalculateAreas sum = new CalculateAreas(shapeArray);
+        OutputAreas oAreas = new OutputAreas(sum.sumAreas());
 
-        ca.sumAreas();
-        ca.output();
+        oAreas.console();    // output to console
+        oAreas.HTML();       // output to HTML
     }
 }
