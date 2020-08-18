@@ -11,6 +11,6 @@ public class Rectangle extends Shape {
 
     public double calcArea() {
         area = length * width;
-        return (area);
+        return area;
     }
 }
